@@ -2,7 +2,7 @@
 ## 
 
 makeCacheMatrix <- function(x = matrix()) {
-  m <- NULL             #set a "bucket" variable intially empty
+  m <- NULL             #set a "bucket" variable initially empty
   set <- function(y) {
     x <<- y             # "y" just a variable for the argument of the function above
     m <<- NULL          # the <<- operator assign a new value to "m" (that is set to NULL)  
